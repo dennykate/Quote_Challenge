@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ColorData, QuoteData } from "./DummyData";
+import { ColorData, QuoteData } from "./data";
 
 const Main = () => {
   const [fade, setFade] = useState(false);

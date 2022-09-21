@@ -1,4 +1,4 @@
-export const QuoteData = [
+const QuoteData = [
   { quote: "Fall seven times and stand up eight.", author: "apanese Proverb" },
   { quote: "Dream big and dare to fail.", author: "Norman Vaughan" },
   { quote: "We become what we think about.", author: "Earl Nightingale" },
@@ -47,7 +47,7 @@ export const QuoteData = [
   },
 ];
 
-export const ColorData = [
+const ColorData = [
   { bg: "bg-[#E74C3C]", text: "text-[#E74C3C]" },
   { bg: "bg-[#472E32]", text: "text-[#472E32]" },
   { bg: "bg-[#BDBB99]", text: "text-[#BDBB99]" },
@@ -60,3 +60,5 @@ export const ColorData = [
   { bg: "bg-[#342224]", text: "text-[#342224]" },
   { bg: "bg-[#16A085]", text: "text-[#16A085]" },
 ];
+
+export { ColorData, QuoteData };
